@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body align="center">
+
+    <button onclick="btnLoad()">Carregar Jogo</button>
+    <button onclick="Resolver()">Resolver</button>
+    <button onclick="VerificaH()">Horizontal</button>
+    <button onclick="VerificaV()">Vertical</button>
+    <button onclick="AlterarQuadrado('+x')">X+</button>
+    <button onclick="AlterarQuadrado('-x')">X-</button>
+    <button onclick="AlterarQuadrado('+y')">Y+</button>
+    <button onclick="AlterarQuadrado('-y')">Y-</button>
+
+    <ul>
+        <li><span id="11"></span></li>
+        <li><span id="12"></span></li>
+        <li><span id="13"></span></li>
+        <li><span id="14"></span></li>
+        <li><span id="15"></span></li>
+        <li><span id="16"></span></li>
+        <li><span id="17"></span></li>
+        <li><span id="18"></span></li>
+        <li><span id="19"></span></li>
+        <li><span id="21"></span></li>
+        <li><span id="22"></span></li>
+        <li><span id="23"></span></li>
+        <li><span id="24"></span></li>
+        <li><span id="25"></span></li>
+        <li><span id="26"></span></li>
+        <li><span id="27"></span></li>
+        <li><span id="28"></span></li>
+        <li><span id="29"></span></li>
+        <li><span id="31"></span></li>
+        <li><span id="32"></span></li>
+        <li><span id="33"></span></li>
+        <li><span id="34"></span></li>
+        <li><span id="35"></span></li>
+        <li><span id="36"></span></li>
+        <li><span id="37"></span></li>
+        <li><span id="38"></span></li>
+        <li><span id="39"></span></li>
+        <li><span id="41"></span></li>
+        <li><span id="42"></span></li>
+        <li><span id="43"></span></li>
+        <li><span id="44"></span></li>
+        <li><span id="45"></span></li>
+        <li><span id="46"></span></li>
+        <li><span id="47"></span></li>
+        <li><span id="48"></span></li>
+        <li><span id="49"></span></li>
+        <li><span id="51"></span></li>
+        <li><span id="52"></span></li>
+        <li><span id="53"></span></li>
+        <li><span id="54"></span></li>
+        <li><span id="55"></span></li>
+        <li><span id="56"></span></li>
+        <li><span id="57"></span></li>
+        <li><span id="58"></span></li>
+        <li><span id="59"></span></li>
+        <li><span id="61"></span></li>
+        <li><span id="62"></span></li>
+        <li><span id="63"></span></li>
+        <li><span id="64"></span></li>
+        <li><span id="65"></span></li>
+        <li><span id="66"></span></li>
+        <li><span id="67"></span></li>
+        <li><span id="68"></span></li>
+        <li><span id="69"></span></li>
+        <li><span id="71"></span></li>
+        <li><span id="72"></span></li>
+        <li><span id="73"></span></li>
+        <li><span id="74"></span></li>
+        <li><span id="75"></span></li>
+        <li><span id="76"></span></li>
+        <li><span id="77"></span></li>
+        <li><span id="78"></span></li>
+        <li><span id="79"></span></li>
+        <li><span id="81"></span></li>
+        <li><span id="82"></span></li>
+        <li><span id="83"></span></li>
+        <li><span id="84"></span></li>
+        <li><span id="85"></span></li>
+        <li><span id="86"></span></li>
+        <li><span id="87"></span></li>
+        <li><span id="88"></span></li>
+        <li><span id="89"></span></li>
+        <li><span id="91"></span></li>
+        <li><span id="92"></span></li>
+        <li><span id="93"></span></li>
+        <li><span id="94"></span></li>
+        <li><span id="95"></span></li>
+        <li><span id="96"></span></li>
+        <li><span id="97"></span></li>
+        <li><span id="98"></span></li>
+        <li><span id="99"></span></li>
+    </ul>
+
+
+    <div id="infosCell">
+        <p>id: <span id="idCell"> </span></p>
+        <p>numero: <span id="numCell"> </span></p>
+        <p>filled: <span id="isFilled"> </span></p>
+        <p>base: <span id="base"> </span></p>
+        <p>numerosPossives: <span id="numP"> </span></p>
+        <p>x: <span id="xS">0</span> | y: <span id="yS">0</span></p>
+    </div>
+    <script src="solver.js"> </script>
+</body>
+</html>
